@@ -1,0 +1,37 @@
+{
+  "metadata": {
+    "title": "Analizador de Listas de YouTube - Duración Total y Estadísticas",
+    "description": "Calcula al instante la duración total de cualquier lista de reproducción de YouTube. Consulta el tiempo total, la duración media de los vídeos y los tiempos de reproducción a diferentes velocidades.",
+    "keywords": "duración lista youtube, duración playlist, calculadora youtube, tiempo lista de videos"
+  },
+  "page": {
+    "heading": "Analizador de Listas de YouTube",
+    "description": "Pega un ID o URL de una lista de reproducción de YouTube a continuación para descubrir al instante su duración total y otras estadísticas interesantes."
+  },
+  "form": {
+    "placeholder": "Pega la URL o el ID de la lista de YouTube",
+    "button": {
+      "default": "Analizar",
+      "loading": "Analizando..."
+    },
+    "tooltip": {
+      "analyze": "Analizar esta lista de reproducción",
+      "emptyInput": "Por favor, introduce una URL o un ID de la lista"
+    }
+  },
+  "report": {
+    "by": "por",
+    "totalPlaylistLength": "Duración Total de la Lista",
+    "totalVideos": "Vídeos Totales",
+    "averageVideoLength": "Duración Promedio",
+    "speed": "A {speed}x",
+    "day": "día | días",
+    "hour": "hora | horas",
+    "minute": "minuto | minutos",
+    "second": "segundo | segundos",
+    "oops": "¡Ups!",
+    "unavailable": "No disponible",
+    "unknownPlaylist": "Lista de reproducción desconocida",
+    "unknownChannel": "Canal desconocido"
+  }
+}

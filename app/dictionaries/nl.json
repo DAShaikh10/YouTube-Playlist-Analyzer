@@ -1,0 +1,37 @@
+{
+  "metadata": {
+    "title": "YouTube-afspeellijstanalysator - Totale Duur & Statistieken",
+    "description": "Bereken direct de totale duur van elke YouTube-afspeellijst. Bekijk de totale tijd, de gemiddelde videolengte en de afspeeltijden op verschillende snelheden.",
+    "keywords": "youtube afspeellijst lengte, duur afspeellijst, youtube calculator, video afspeellijst tijd"
+  },
+  "page": {
+    "heading": "YouTube-afspeellijstanalysator",
+    "description": "Plak hieronder een YouTube-afspeellijst-ID of URL om direct de totale lengte en andere coole statistieken te zien."
+  },
+  "form": {
+    "placeholder": "Plak YouTube-afspeellijst-URL of ID",
+    "button": {
+      "default": "Analyseren",
+      "loading": "Bezig met analyseren..."
+    },
+    "tooltip": {
+      "analyze": "Analyseer deze afspeellijst",
+      "emptyInput": "Voer een afspeellijst-URL of ID in"
+    }
+  },
+  "report": {
+    "by": "door",
+    "totalPlaylistLength": "Totale Lengte Afspeellijst",
+    "totalVideos": "Totaal Aantal Video's",
+    "averageVideoLength": "Gem. Lengte",
+    "speed": "Op {speed}x",
+    "day": "dag | dagen",
+    "hour": "uur | uren",
+    "minute": "minuut | minuten",
+    "second": "seconde | seconden",
+    "oops": "Oeps!",
+    "unavailable": "Niet beschikbaar",
+    "unknownPlaylist": "Onbekende Afspeellijst",
+    "unknownChannel": "Onbekend Kanaal"
+  }
+}

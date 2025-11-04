@@ -1,0 +1,37 @@
+{
+  "metadata": {
+    "title": "YouTube Playlist Analyzer - Get Total Duration & Stats",
+    "description": "Instantly calculate the total duration of any YouTube playlist. See total time, average video length, and playback times at different speeds.",
+    "keywords": "youtube playlist length, playlist duration, youtube calculator, video playlist time"
+  },
+  "page": {
+    "heading": "YouTube Playlist Analyzer",
+    "description": "Paste a YouTube playlist ID or URL below to instantly find out its total length and other cool stats."
+  },
+  "form": {
+    "placeholder": "Paste YouTube Playlist URL or ID",
+    "button": {
+      "default": "Analyze",
+      "loading": "Analyzing..."
+    },
+    "tooltip": {
+      "analyze": "Analyze this playlist",
+      "emptyInput": "Please enter a Playlist URL or ID"
+    }
+  },
+  "report": {
+    "by": "by",
+    "totalPlaylistLength": "Total Playlist Length",
+    "totalVideos": "Total Videos",
+    "averageVideoLength": "Avg. Length",
+    "speed": "At {speed}x",
+    "day": "day | days",
+    "hour": "hour | hours",
+    "minute": "minute | minutes",
+    "second": "second | seconds",
+    "oops": "Oops!",
+    "unavailable": "Unavailable",
+    "unknownPlaylist": "Unknown Playlist",
+    "unknownChannel": "Unknown Channel"
+  }
+}

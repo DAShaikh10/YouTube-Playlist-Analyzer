@@ -1,0 +1,37 @@
+{
+  "metadata": {
+    "title": "YouTube 播放列表分析器 - 获取总时长和统计信息",
+    "description": "即时计算任何 YouTube 播放列表的总时长。查看总时间、平均视频长度和不同速度下的播放时间。",
+    "keywords": "youtube播放列表长度, 播放列表时长, youtube计算器, 视频播放列表时间"
+  },
+  "page": {
+    "heading": "YouTube 播放列表分析器",
+    "description": "在下方粘贴 YouTube 播放列表的 ID 或 URL, 即可立即了解其总长度和其他有趣的统计数据。"
+  },
+  "form": {
+    "placeholder": "粘贴 YouTube 播放列表 URL 或 ID",
+    "button": {
+      "default": "分析",
+      "loading": "分析中..."
+    },
+    "tooltip": {
+      "analyze": "分析此播放列表",
+      "emptyInput": "请输入播放列表 URL 或 ID"
+    }
+  },
+  "report": {
+    "by": "由",
+    "totalPlaylistLength": "播放列表总长度",
+    "totalVideos": "视频总数",
+    "averageVideoLength": "平均长度",
+    "speed": "{speed}x 倍速",
+    "day": "天",
+    "hour": "小时",
+    "minute": "分钟",
+    "second": "秒",
+    "oops": "哎呀！",
+    "unavailable": "不可用",
+    "unknownPlaylist": "未知播放列表",
+    "unknownChannel": "未知频道"
+  }
+}

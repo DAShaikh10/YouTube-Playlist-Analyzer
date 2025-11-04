@@ -1,0 +1,37 @@
+{
+  "metadata": {
+    "title": "YouTube-Wiedergabelisten-Analysator - Gesamtdauer & Statistiken",
+    "description": "Berechnen Sie sofort die Gesamtdauer jeder YouTube-Wiedergabeliste. Sehen Sie die Gesamtzeit, die durchschnittliche Videolänge und die Wiedergabezeiten bei verschiedenen Geschwindigkeiten.",
+    "keywords": "youtube playlist länge, playlist dauer, youtube rechner, video playlist zeit"
+  },
+  "page": {
+    "heading": "YouTube-Wiedergabelisten-Analysator",
+    "description": "Fügen Sie unten eine YouTube-Wiedergabelisten-ID oder URL ein, um sofort die Gesamtlänge und andere coole Statistiken zu erfahren."
+  },
+  "form": {
+    "placeholder": "YouTube-Wiedergabelisten-URL oder ID einfügen",
+    "button": {
+      "default": "Analysieren",
+      "loading": "Analysiere..."
+    },
+    "tooltip": {
+      "analyze": "Diese Wiedergabeliste analysieren",
+      "emptyInput": "Bitte geben Sie eine Wiedergabelisten-URL oder ID ein"
+    }
+  },
+  "report": {
+    "by": "von",
+    "totalPlaylistLength": "Gesamtlänge der Playlist",
+    "totalVideos": "Videos insgesamt",
+    "averageVideoLength": "Durchschnitt. Länge",
+    "speed": "Bei {speed}x",
+    "day": "Tag | Tage",
+    "hour": "Stunde | Stunden",
+    "minute": "Minute | Minuten",
+    "second": "Sekunde | Sekunden",
+    "oops": "Hoppla!",
+    "unavailable": "Nicht verfügbar",
+    "unknownPlaylist": "Unbekannte Playlist",
+    "unknownChannel": "Unbekannter Kanal"
+  }
+}
