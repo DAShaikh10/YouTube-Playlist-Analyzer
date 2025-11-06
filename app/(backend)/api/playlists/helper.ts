@@ -22,7 +22,7 @@ import {
   DEFAULT_LOCALE,
   LOCALES,
 } from "@/constants/appsettingConstants";
-import { getDictionary } from "@/app/(frontend)/[lang]/dictionaries";
+import { getDictionary } from "@/app/dictionaries/dictionaries";
 
 import type {
   ValidationResult,
@@ -31,6 +31,7 @@ import type {
   YouTubeResource,
   Locale,
 } from "@/types/types";
+import { IDictionary } from "@/app/types/interfaces";
 
 /**
  * Validates the incoming request and extracts the playlist ID.
@@ -231,14 +232,14 @@ function getPlural(value: number, unitString: string, lang: string): string {
  * Formats a Luxon Duration object into a human-readable string.
  * @param {Duration} duration - The Luxon Duration object.
  * @param {Intl.NumberFormat} numberFormatter - The formatter for the current locale.
- * @param {Record<string, any>} dictionary - The language dictionary.
+ * @param {IDictionary} dictionary - The language dictionary.
  * @param {Locale} lang - The locale (e.g., "en", "de").
  * @returns {string} The formatted time string.
  */
 function formatDuration(
   duration: Duration,
   numberFormatter: Intl.NumberFormat,
-  dictionary: Record<string, any>,
+  dictionary: IDictionary,
   lang: Locale
 ): string {
   const units = dictionary.report;

@@ -1,6 +1,6 @@
 import { Inter } from "next/font/google";
 
-import { getDictionary } from "./dictionaries";
+import { getDictionary } from "@/app/dictionaries/dictionaries";
 import { SideFooter } from "@/components/SideFooter";
 import { LOCALES } from "@/constants/appsettingConstants";
 

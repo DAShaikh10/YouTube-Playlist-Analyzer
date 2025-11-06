@@ -2,14 +2,14 @@ import Time from "@/components/Time";
 import StatCard from "@/components/StatCard";
 import PlaybackSpeedCard from "@/components/PlaybackSpeedCard";
 
-import { IPlaylistReport } from "@/types/interfaces";
+import { IDictionary, IPlaylistReport } from "@/types/interfaces";
 
 export default function Report({
   report,
   langDictionary,
 }: {
   report: IPlaylistReport;
-  langDictionary: Record<string, any>;
+  langDictionary: IDictionary;
 }) {
   return (
     <div className="bg-black/20 backdrop-blur-xl p-5 md:p-6 rounded-xl shadow-2xl animate-fade-in w-full flex flex-col gap-3">

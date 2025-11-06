@@ -6,7 +6,7 @@ import Report from "@/components/Report";
 import ErrorState from "@/components/ErrorState";
 import LoadingSpinner from "@/components/LoadingSpinner";
 
-import { IPlaylistReport } from "@/types/interfaces";
+import { IDictionary, IPlaylistReport } from "@/types/interfaces";
 
 import type { Locale } from "@/types/types";
 
@@ -15,7 +15,7 @@ export default function Base({
   langDictionary,
 }: {
   lang: Locale;
-  langDictionary: Record<string, any>;
+  langDictionary: IDictionary;
 }) {
   const [userInput, setUserInput] = useState("");
   const [report, setReport] = useState<IPlaylistReport | null>(null);
@@ -70,8 +70,11 @@ export default function Base({
       setLastSuccessfulUrl(userInput);
       setCachedReport(data);
       setError(null);
-    } catch (err: any) {
-      setError(err.message);
+    } catch (error) {
+      // TODO: Add else logic with generic error.
+      if (error instanceof Error) {
+        setError(error.message);
+      }
     } finally {
       setIsLoading(false);
     }
