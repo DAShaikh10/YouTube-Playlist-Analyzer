@@ -1,0 +1,23 @@
+# https://taskfile.dev
+
+version: "3"
+
+tasks:
+  build:
+    cmd: pnpm run build
+
+  develop:
+    cmd: pnpm run dev
+    desc: Start the Next JS application in development mode.
+
+  lint:
+    cmd: pnpm run lint
+
+  start:
+    cmd: pnpm run start
+
+  update:
+    cmd: pnpm up
+
+  update-latest:
+    cmd: pnpm up --latest

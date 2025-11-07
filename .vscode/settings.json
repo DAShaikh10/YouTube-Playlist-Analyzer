@@ -1,5 +1,8 @@
 {
   "editor.insertSpaces": true,
   "editor.tabSize": 2,
-  "files.eol": "\r\n"
+  "files.eol": "\r\n",
+  "task": {
+    "outputTo": "terminal" // This is required to ensure interactive tasks do not end up in the output panel.
+  }
 }
