@@ -1,8 +1,9 @@
 import { Inter } from "next/font/google";
+import { GoogleTagManager } from "@next/third-parties/google";
 
 import { getDictionary } from "@/app/dictionaries/dictionaries";
 import { SideFooter } from "@/components/SideFooter";
-import { LOCALES } from "@/constants/appsettingConstants";
+import { ANALYTICS_ID, LOCALES } from "@/constants/appsettingConstants";
 
 import type { Metadata } from "next";
 import type { Locale } from "@/types/types";
@@ -45,6 +46,7 @@ export default async function RootLayout({
       >
         {children}
         <SideFooter />
+        <GoogleTagManager gtmId={ANALYTICS_ID} />
       </body>
     </html>
   );

@@ -1,4 +1,5 @@
 export const DEFAULT_LOCALE = process.env.DEFAULT_LOCALE!;
+export const ANALYTICS_ID = process.env.ANALYTICS_ID!;
 export const LOCALES = process.env.LOCALES!.split(",");
 export const LONGER_CACHE_DURATION_IN_SECONDS = Number(
   process.env.LONGER_CACHE_DURATION_IN_SECONDS
