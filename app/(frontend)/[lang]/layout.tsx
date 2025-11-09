@@ -25,8 +25,40 @@ export async function generateMetadata({
     title: langDictionary.metadata.title,
     description: langDictionary.metadata.description,
     keywords: langDictionary.metadata.keywords,
+    alternates: {
+      canonical: "/",
+      languages: {
+        en: "/en",
+        es: "/es",
+        de: "/de",
+        fr: "/fr",
+        hi: "/hi",
+        mr: "/mr",
+        nl: "/nl",
+        ru: "/ru",
+        zh: "/zh",
+      },
+    },
     authors: [{ name: "DAShaikh10" }],
     creator: "DAShaikh10",
+    robots: {
+      index: true,
+      follow: true,
+      nocache: false,
+      googleBot: {
+        index: true,
+        follow: true,
+        noimageindex: false,
+        "max-video-preview": -1,
+        "max-image-preview": "large",
+        "max-snippet": -1,
+      },
+    },
+    verification: {
+      google: "google",
+      yandex: "yandex",
+      yahoo: "yahoo",
+    },
   };
 }
 
