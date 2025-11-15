@@ -1,4 +1,12 @@
+# YouTube Playlist Analyzer
+
+<div align="center">
+
 ![Visitors][visitors-badge]
+
+</div>
+
+README to be added soon!
 
 <!-- MARKDOWN BADGES -->
 
