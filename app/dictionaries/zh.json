@@ -33,5 +33,16 @@
     "unavailable": "不可用",
     "unknownPlaylist": "未知播放列表",
     "unknownChannel": "未知频道"
+  },
+  "languages": {
+    "de": "德语",
+    "en": "英语",
+    "es": "西班牙语",
+    "fr": "法语",
+    "hi": "印地语",
+    "mr": "马拉地语",
+    "nl": "荷兰语",
+    "ru": "俄语",
+    "zh": "中文"
   }
 }

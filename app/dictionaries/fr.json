@@ -33,5 +33,16 @@
     "unavailable": "Indisponible",
     "unknownPlaylist": "Playlist inconnue",
     "unknownChannel": "Chaîne inconnue"
+  },
+  "languages": {
+    "de": "Allemand",
+    "en": "Anglais",
+    "es": "Espagnol",
+    "fr": "Français",
+    "hi": "Hindi",
+    "mr": "Marathi",
+    "nl": "Néerlandais",
+    "ru": "Russe",
+    "zh": "Chinois"
   }
 }

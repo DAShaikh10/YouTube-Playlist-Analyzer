@@ -34,6 +34,9 @@ export interface IDictionary {
     unknownPlaylist: string;
     unknownChannel: string;
   };
+  languages: {
+    [key: string]: string;
+  };
 }
 
 export interface ISpeed {

@@ -33,5 +33,16 @@
     "unavailable": "Niet beschikbaar",
     "unknownPlaylist": "Onbekende Afspeellijst",
     "unknownChannel": "Onbekend Kanaal"
+  },
+  "languages": {
+    "de": "Duits",
+    "en": "Engels",
+    "es": "Spaans",
+    "fr": "Frans",
+    "hi": "Hindi",
+    "mr": "Marathi",
+    "nl": "Nederlands",
+    "ru": "Russisch",
+    "zh": "Chinees"
   }
 }
