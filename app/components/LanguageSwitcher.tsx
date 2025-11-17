@@ -85,7 +85,7 @@ export default function LanguageSwitcher({
           alt={currentLocaleDetails.alt}
           width={38}
           height={26}
-          className="rounded-sm h-auto w-auto"
+          className="rounded-sm"
         />
       </button>
 
@@ -109,7 +109,7 @@ export default function LanguageSwitcher({
                       alt={selectedLocale.alt}
                       width={30}
                       height={23}
-                      className="rounded-xs h-auto w-auto"
+                      className="rounded-xs"
                     />
                     {locale.name.toUpperCase()}
                   </Link>
