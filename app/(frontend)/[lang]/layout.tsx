@@ -1,8 +1,10 @@
 import { Inter } from "next/font/google";
 import { GoogleTagManager } from "@next/third-parties/google";
 
+import SideFooter from "@/components/SideFooter";
+import LanguageSwitcher from "@/components/LanguageSwitcher";
+
 import { getDictionary } from "@/app/dictionaries/dictionaries";
-import { SideFooter } from "@/components/SideFooter";
 import { ANALYTICS_ID, LOCALES } from "@/constants/appsettingConstants";
 
 import type { Metadata } from "next";
@@ -68,12 +70,20 @@ export default async function RootLayout({
   params: Promise<{ lang: (typeof LOCALES)[number] }>;
 }) {
   const { lang } = await params;
+  const langDictionary = await getDictionary(lang as Locale);
 
   return (
     <html lang={lang}>
       <body
         className={`${inter.className} bg-linear-to-br from-indigo-500 via-purple-500 to-blue-100 text-white min-h-screen antialiased`}
       >
+        <div className="absolute right-4 top-4 z-50 animate-fade-in">
+          <LanguageSwitcher
+            currentLocale={lang as Locale}
+            langDictionary={langDictionary}
+            locales={LOCALES as Locale[]}
+          />
+        </div>
         {children}
         <SideFooter />
         <GoogleTagManager gtmId={ANALYTICS_ID} />
