@@ -122,6 +122,7 @@ export default function Base({
         <div className="flex flex-col sm:flex-row gap-4">
           <input
             required
+            id="playlist-input"
             className="grow bg-white/10 text-white placeholder-white/50 px-4 py-3 rounded-lg border border-white/20 focus:ring-2 focus:ring-pink-400 focus:outline-none transition duration-300"
             value={userInput}
             type="text"
