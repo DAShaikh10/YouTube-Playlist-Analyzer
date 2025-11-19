@@ -2,6 +2,11 @@
   "name": "youtube-playlist-analyzer",
   "version": "0.1.0",
   "private": true,
+  "pnpm": {
+    "overrides": {
+      "js-yaml": ">=4.1.1"
+    }
+  },
   "scripts": {
     "dev": "next dev --turbopack",
     "build": "next build --turbopack",
