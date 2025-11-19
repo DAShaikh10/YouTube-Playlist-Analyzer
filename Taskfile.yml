@@ -5,6 +5,7 @@ version: "3"
 tasks:
   build:
     cmd: pnpm run build
+    desc: Build the Next JS application for production.
 
   develop:
     cmd: pnpm run dev
@@ -12,12 +13,23 @@ tasks:
 
   lint:
     cmd: pnpm run lint
+    desc: Run the linter to check code quality. ESLint.
 
   start:
     cmd: pnpm run start
+    desc: Start the Next JS application in production mode.
 
   update:
     cmd: pnpm up
+    desc: Update dependencies to the latest versions according to the version ranges specified in package.json.
 
   update-latest:
     cmd: pnpm up --latest
+    desc: Update dependencies to their latest versions, ignoring the version ranges specified in package.json.
+
+  clean:
+    cmds:
+      - rm -rf .Next
+      - rm -rf node_modules
+      - rm -rf pnpm-lock.yaml
+    desc: Clean the project by removing build artifacts and dependencies.
