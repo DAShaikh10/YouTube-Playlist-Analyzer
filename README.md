@@ -27,6 +27,12 @@ README to be added soon!
 In the meantime, do give the site a visit to find out cool stats of any youtube playlist at:
 https://analyze-youtube-playlist.vercel.app
 
+<div align="center">
+
+Made with ❤️
+
+</div>
+
 <!-- MARKDOWN BADGES -->
 
 [commits-shield]: https://img.shields.io/github/commit-activity/t/DAShaikh10/YouTube-Playlist-Analyzer?style=for-the-badge
