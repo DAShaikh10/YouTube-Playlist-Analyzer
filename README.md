@@ -1,5 +1,9 @@
 # YouTube Playlist Analyzer
 
+Instantly calculate the total duration of any YouTube playlist. See total time, average video length, and playback times at different speeds with this fast, ad-free tool.
+
+https://analyze-youtube-playlist.vercel.app
+
 <div align="center">
 
 ![next.js][next-shield]
@@ -22,10 +26,23 @@
 
 </div>
 
-README to be added soon!
+## Preview
 
-In the meantime, do give the site a visit to find out cool stats of any youtube playlist at:
-https://analyze-youtube-playlist.vercel.app
+![home-paGE](image.png)
+
+![alt text](image-1.png)
+
+## Supported Localizations
+
+- English
+- Spanish
+- German
+- Dutch
+- Chinese
+- French
+- Hindi
+- Marathi
+- Russian
 
 <div align="center">
 
