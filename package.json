@@ -29,7 +29,7 @@
     "@tailwindcss/postcss": "^4.1.18",
     "@types/luxon": "^3.7.1",
     "@types/negotiator": "^0.6.4",
-    "@types/node": "^25.0.7",
+    "@types/node": "^25.0.9",
     "@types/react": "^19.2.8",
     "@types/react-dom": "^19.2.2",
     "eslint": "^9.39.2",
