@@ -27,6 +27,10 @@ export async function generateMetadata({
     title: langDictionary.metadata.title,
     description: langDictionary.metadata.description,
     keywords: langDictionary.metadata.keywords,
+    // Provide a metadata base so Next generates absolute URLs for alternates/hreflang.
+    metadataBase: new URL(
+      process.env.NEXT_PUBLIC_SITE_URL || "http://localhost:3000",
+    ),
     alternates: {
       canonical: "/",
       languages: {
