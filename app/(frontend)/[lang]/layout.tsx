@@ -1,5 +1,5 @@
 import { Inter } from "next/font/google";
-import { GoogleTagManager } from "@next/third-parties/google";
+import { GoogleAnalytics } from "@next/third-parties/google";
 
 import SideFooter from "@/components/SideFooter";
 import LanguageSwitcher from "@/components/LanguageSwitcher";
@@ -86,7 +86,7 @@ export default async function RootLayout({
         </div>
         {children}
         <SideFooter />
-        <GoogleTagManager gtmId={ANALYTICS_ID} />
+        <GoogleAnalytics gaId={ANALYTICS_ID} />
       </body>
     </html>
   );
