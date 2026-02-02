@@ -28,9 +28,13 @@ https://analyze-youtube-playlist.vercel.app
 
 ## Preview
 
-![home-paGE](image.png)
+<div align="center">
 
-![alt text](image-1.png)
+![home-page](/assets/preview.png)
+
+![analysis-preview](/assets/preview-analysis.png)
+
+</div>
 
 ## Supported Localizations
 
@@ -46,9 +50,21 @@ https://analyze-youtube-playlist.vercel.app
 
 <div align="center">
 
-Made with ❤️
+</div>
+
+## SEO Optimized
+
+### Google PageSpeed Insights
+
+<div align="center">
+
+![pagespeed-insights-desktop](/assets/pagespeed-desktop.png)
+
+![pagespeed-insights-mobile](/assets/pagespeed-mobile.png)
 
 </div>
+
+Made with ❤️
 
 <!-- MARKDOWN BADGES -->
 
