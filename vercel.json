@@ -1,0 +1,3 @@
+{
+  "rewrites": [{ "source": "/:lang/robots.txt", "destination": "/robots.txt" }]
+}
