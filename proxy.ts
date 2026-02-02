@@ -18,7 +18,7 @@ export default function proxy(request: NextRequest) {
   // Check if there is any supported locale in the pathname
   const { pathname } = request.nextUrl;
   const pathnameHasLocale = LOCALES.some(
-    (locale) => pathname.startsWith(`/${locale}/`) || pathname === `/${locale}`
+    (locale) => pathname.startsWith(`/${locale}/`) || pathname === `/${locale}`,
   );
 
   if (pathnameHasLocale) return;
@@ -34,7 +34,7 @@ export default function proxy(request: NextRequest) {
 
 export const config = {
   matcher: [
-    // Exclude API routes, static files, image optimizations, and .png files
-    "/((?!api|_next/static|_next/image|.*\\.svg|.*\\.webp|.*\\.ico$).*)",
+    // Exclude API routes, static files, image optimizations, robots.txt, and .png files
+    "/((?!api|_next/static|_next/image|robots.txt|.*\\.svg|.*\\.webp|.*\\.ico$).*)",
   ],
 };
