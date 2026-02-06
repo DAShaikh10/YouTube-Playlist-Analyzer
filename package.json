@@ -14,7 +14,7 @@
     "lint": "eslint"
   },
   "dependencies": {
-    "@formatjs/intl-localematcher": "^0.8.0",
+    "@formatjs/intl-localematcher": "^0.8.1",
     "@next/third-parties": "^16.1.6",
     "luxon": "^3.7.2",
     "negotiator": "^1.0.0",
