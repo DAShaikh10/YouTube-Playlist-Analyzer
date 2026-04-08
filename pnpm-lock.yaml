@@ -399,9 +399,6 @@ packages:
   '@next/env@16.2.2':
     resolution: {integrity: sha512-LqSGz5+xGk9EL/iBDr2yo/CgNQV6cFsNhRR2xhSXYh7B/hb4nePCxlmDvGEKG30NMHDFf0raqSyOZiQrO7BkHQ==}
 
-  '@next/eslint-plugin-next@16.2.1':
-    resolution: {integrity: sha512-r0epZGo24eT4g08jJlg2OEryBphXqO8aL18oajoTKLzHJ6jVr6P6FI58DLMug04MwD3j8Fj0YK0slyzneKVyzA==}
-
   '@next/eslint-plugin-next@16.2.2':
     resolution: {integrity: sha512-IOPbWzDQ+76AtjZioaCjpIY72xNSDMnarZ2GMQ4wjNLvnJEJHqxQwGFhgnIWLV9klb4g/+amg88Tk5OXVpyLTw==}
 
@@ -2345,10 +2342,6 @@ snapshots:
     optional: true
 
   '@next/env@16.2.2': {}
-
-  '@next/eslint-plugin-next@16.2.1':
-    dependencies:
-      fast-glob: 3.3.1
 
   '@next/eslint-plugin-next@16.2.2':
     dependencies:
